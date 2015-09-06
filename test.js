@@ -3,7 +3,9 @@ var test = require('ava');
 var isWeakMap = require('./');
 
 test(function (t) {
-	t.assert(isWeakMap(new WeakMap()));
-	t.assert(!isWeakMap(new Map()));
-	t.assert(!isWeakMap({}));
+	t.true(isWeakMap(new WeakMap()));
+	t.false(isWeakMap(new Map()));
+	t.false(isWeakMap({}));
+
+	t.end();
 });

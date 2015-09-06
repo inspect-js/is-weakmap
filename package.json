@@ -18,18 +18,13 @@
   ],
   "repository": "arthurvr/is-weakmap",
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo && ava"
   },
   "devDependencies": {
-    "ava": "0.0.4",
+    "ava": "*",
     "xo": "*"
   },
   "engines": {
     "node": ">=0.12.0"
-  },
-  "xo": {
-    "envs": [
-      "node"
-    ]
   }
 }
