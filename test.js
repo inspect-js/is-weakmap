@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var isWeakMap = require('./');
+import test from 'ava';
+import isWeakMap from './';
 
-test(function (t) {
+test(t => {
 	t.true(isWeakMap(new WeakMap()));
 	t.false(isWeakMap(new Map()));
 	t.false(isWeakMap({}));
