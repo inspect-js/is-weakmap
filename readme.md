@@ -9,10 +9,11 @@
 $ npm install is-weakmap --save
 ```
 
+
 ## Usage
 
 ```javascript
-var isWeakMap = require('is-weakmap');
+const isWeakMap = require('is-weakmap');
 
 isWeakMap(new WeakMap());
 //=> true
