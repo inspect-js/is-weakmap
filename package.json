@@ -1,0 +1,28 @@
+{
+	"name": "is-weakmap",
+	"version": "1.0.1",
+	"description": "Is this value a JS WeakMap? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/is-weakmap.git"
+	},
+	"keywords": [
+		"map",
+		"weakmap",
+		"set",
+		"weakset",
+		"collection",
+		"is",
+		"robust"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/is-weakmap/issues"
+	},
+	"homepage": "https://github.com/inspect-js/is-weakmap#readme"
+}
