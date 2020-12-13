@@ -1,6 +1,5 @@
 # is-weakmap <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -35,15 +34,13 @@ assert(isWeakMap(new MyWeakMap()));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-weakmap
-[2]: http://versionbadg.es/inspect-js/is-weakmap.svg
-[3]: https://travis-ci.org/inspect-js/is-weakmap.svg
-[4]: https://travis-ci.org/inspect-js/is-weakmap
+[2]: https://versionbadg.es/inspect-js/is-weakmap.svg
 [5]: https://david-dm.org/inspect-js/is-weakmap.svg
 [6]: https://david-dm.org/inspect-js/is-weakmap
 [7]: https://david-dm.org/inspect-js/is-weakmap/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-weakmap#info=devDependencies
 [11]: https://nodei.co/npm/is-weakmap.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-weakmap.svg
+[license-image]: https://img.shields.io/npm/l/is-weakmap.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-weakmap.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-weakmap
+[downloads-image]: https://img.shields.io/npm/dm/is-weakmap.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-weakmap
