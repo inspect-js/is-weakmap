@@ -11,7 +11,7 @@
 		"lint": "eslint .",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests:shims": "nyc tape --require=es5-shim --require=es5-shim 'test/**/*.js'",
-		"test": "npm run tests-only",
+		"test": "npm run tests-only && npm run tests:shims",
 		"posttest": "aud --production"
 	},
 	"repository": {
