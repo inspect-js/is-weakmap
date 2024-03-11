@@ -7,8 +7,8 @@ var exported;
 
 if (!$WeakMap) {
 	/** @type {import('.')} */
-	// eslint-disable-next-line no-unused-vars
-	exported = function isWeakMap(x) {
+	// @ts-expect-error
+	exported = function isWeakMap(x) { // eslint-disable-line no-unused-vars
 		// `WeakMap` is not present in this environment.
 		return false;
 	};
@@ -18,8 +18,8 @@ var $mapHas = $WeakMap ? $WeakMap.prototype.has : null;
 var $setHas = $WeakSet ? $WeakSet.prototype.has : null;
 if (!exported && !$mapHas) {
 	/** @type {import('.')} */
-	// eslint-disable-next-line no-unused-vars
-	exported = function isWeakMap(x) {
+	// @ts-expect-error
+	exported = function isWeakMap(x) { // eslint-disable-line no-unused-vars
 		// `WeakMap` does not have a `has` method
 		return false;
 	};
